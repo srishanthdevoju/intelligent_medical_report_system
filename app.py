@@ -26,6 +26,14 @@ load_css()
 
 # Injecting Premium CSS
 st.markdown("""
+<div class="glass-card hero-card">
+    <h1>🩺 IntelliMed AI</h1>
+    <p style="font-size:20px;color:#cbd5e1;">
+        Healthcare NLP • Self-Attention • Explainable AI
+    </p>
+</div>
+""", unsafe_allow_html=True)
+st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
         
